@@ -1,4 +1,4 @@
-# revolt.js
+# qugram.js
 
 > **Warning**
 > revolt.js is currently being rewritten, it's pretty much ready for use for most applications but is still not entirely feature complete.
@@ -7,15 +7,15 @@
 
 ![revolt.js](https://img.shields.io/npm/v/revolt.js) ![revolt-api](https://img.shields.io/npm/v/revolt-api?label=Revolt%20API)
 
-**revolt.js** is a JavaScript library for interacting with the entire Revolt API.
+**qugram.js** a fork from revolt.js.
 
 ## Example Usage
 
 ```javascript
 // esm / typescript
-import { Client } from "revolt.js";
+import { Client } from "@qugram/qugram.js";
 // ...or commonjs
-const { Client } = require("revolt.js");
+const { Client } = require("@qugram/qugram.js");
 
 let client = new Client();
 
