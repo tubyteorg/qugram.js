@@ -55,7 +55,7 @@ All `revolt-api` types are re-exported from this library under `API`.
 > It is advised you do not use this unless necessary, if you find somewhere that isn't covered by the library, please open an issue as this library aims to transform all objects.
 
 ```typescript
-import { API } from "revolt.js";
+import { API } from "@qugram/qugram.js";
 
 // API.Channel;
 // API.[..];
